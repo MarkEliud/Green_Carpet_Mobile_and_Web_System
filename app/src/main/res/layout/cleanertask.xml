@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    tools:context=".Finance.Fragments.incomingDetails">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/kid"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/product_card_view"
+            android:padding="10dp"
+            android:textSize="25dp"
+            android:text="loading"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/clean"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:background="@drawable/product_card_view"
+            android:padding="10dp"
+            android:textSize="25dp"
+            android:text="loading"
+            />
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/image_view"
+            />
+        <EditText
+            android:id="@+id/quote"
+            android:hint="Quote price(Kshs)"
+            android:visibility="gone"
+            android:gravity="center"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name_edit_text"
+            android:layout_marginTop="16dp"/>
+        <Button
+            android:textStyle="bold"
+            android:background="#42B15A"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quote price"
+            android:visibility="gone"
+            android:id="@+id/price"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="itemcalc"
+            android:textStyle="bold"
+            android:background="#42B15A"
+            android:layout_marginTop="10dp"
+            android:id="@+id/itemcalc"/>
+        <Button
+            android:textStyle="bold"
+            android:background="#42B15A"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Proceed to Complete"
+            android:id="@+id/approve"/>
+
+    </LinearLayout>
+
+</ScrollView>

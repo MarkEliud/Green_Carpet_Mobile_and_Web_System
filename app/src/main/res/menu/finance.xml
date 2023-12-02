@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/incoming"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Incoming" />
+    <item
+        android:id="@+id/approved"
+        android:icon="@drawable/done"
+        android:title="Approved" />
+    <item
+        android:id="@+id/approvs"
+        android:icon="@drawable/pay"
+        android:title="Pay Requested Supplies" />
+    <item
+        android:id="@+id/pdf"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Generate Report Pdf" />
+
+
+
+    <item android:title="Profile">
+        <menu>
+            <item
+                android:id="@+id/mess"
+                android:icon="@drawable/ic_baseline_message_24"
+                android:title="View Messages" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_baseline_login_24"
+                android:title="Login Out" />
+        </menu>
+    </item>
+
+</menu>

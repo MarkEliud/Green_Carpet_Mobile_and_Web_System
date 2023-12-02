@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/select_image_button"
+            android:text="Select Image"
+            android:textStyle="bold"
+            android:background="#42B15A"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+
+        <EditText
+            android:id="@+id/name_edit_text"
+            android:hint="Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/select_image_button"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/date_edit_text"
+            android:hint="Date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name_edit_text"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/description_edit_text"
+            android:hint="Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/date_edit_text"
+            android:layout_marginTop="16dp"/>
+
+
+
+        <Button
+            android:id="@+id/upload_button"
+            android:text="Upload"
+           android:textStyle="bold"
+            android:background="#42B15A"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/description_edit_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

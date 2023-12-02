@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/viewp"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="View Products" />
+    <item
+        android:id="@+id/addp"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Add Products" />
+    <item
+        android:id="@+id/appritem"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Allocate Cleaning Items" />
+    <item
+        android:id="@+id/request"
+        android:icon="@drawable/request"
+        android:title="Request Supplies" />
+    <item
+        android:id="@+id/app"
+        android:icon="@drawable/request"
+        android:title="Approve Supplies" />
+    <item
+        android:id="@+id/requestApproved"
+        android:icon="@drawable/ship"
+        android:title="Shipped Supplies" />
+
+
+    <item android:title="Profile">
+        <menu>
+            <item
+                android:id="@+id/mess"
+                android:icon="@drawable/ic_baseline_message_24"
+                android:title="View Messages" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_baseline_login_24"
+                android:title="Login Out" />
+        </menu>
+    </item>
+
+</menu>

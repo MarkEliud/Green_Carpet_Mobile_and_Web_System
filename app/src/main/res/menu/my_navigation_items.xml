@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/matt"
+        android:title="Upload Order" />
+<!--        <item-->
+<!--            android:id="@+id/add"-->
+<!--            android:icon="@drawable/cart"-->
+<!--            android:title="All Services" />-->
+
+<!--    <item android:title="Categories">-->
+<!--        <menu>-->
+<!--            <item-->
+<!--                android:id="@+id/carp"-->
+<!--                android:icon="@drawable/carp"-->
+<!--                android:title="Carpet Cleaning" />-->
+<!--            <item-->
+<!--                android:id="@+id/matt"-->
+<!--                android:icon="@drawable/matt"-->
+<!--                android:title="Mattress Cleaning" />-->
+<!--            <item-->
+<!--                android:id="@+id/sofa"-->
+<!--                android:icon="@drawable/sofa"-->
+<!--                android:title="Sofa Cleaning" />-->
+<!--            <item-->
+<!--                android:id="@+id/car"-->
+<!--                android:icon="@drawable/car"-->
+<!--                android:title="Car-Interior-Cleaning" />-->
+<!--            <item-->
+<!--                android:id="@+id/pest"-->
+<!--                android:icon="@drawable/pest"-->
+<!--                android:title="Pest Control Service" />-->
+<!--        </menu>-->
+<!--    </item>-->
+
+    <item
+        android:id="@+id/activityhistory"
+        android:icon="@drawable/history"
+        android:title="Activity and Receipts" />
+    <item
+        android:id="@+id/help"
+        android:icon="@drawable/help"
+        android:title="Help And Faqs" />
+    <item
+        android:id="@+id/about"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="About" />
+    <item
+        android:id="@+id/feed"
+        android:icon="@drawable/feed"
+        android:title="FeedBack" />
+        <item
+            android:id="@+id/mess"
+            android:icon="@drawable/ic_baseline_message_24"
+            android:title="Messages" />
+
+
+
+    <item android:title="Profile">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_baseline_login_24"
+                android:title="Login Out" />
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_baseline_share_24"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_baseline_rate_review_24"
+                android:title="Rate us" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".ServiceManager.Fragments.addPrograms">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:id="@+id/quantiy_no">
+
+        <EditText
+            android:id="@+id/title"
+
+            android:layout_height="wrap_content"
+            android:hint="Add title"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+
+            android:inputType="text"
+            android:textCursorDrawable="@drawable/colour_cursor"
+            android:textColor="@color/colorPrimary"
+            android:theme="@style/AppTheme"
+
+            android:layout_width="match_parent"/>
+        <EditText
+            android:id="@+id/desc"
+
+            android:layout_height="wrap_content"
+            android:hint="Add Description"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+
+
+            android:textCursorDrawable="@drawable/colour_cursor"
+            android:textColor="@color/colorPrimary"
+            android:theme="@style/AppTheme"
+            android:gravity="start"
+            android:inputType="textMultiLine"
+            android:imeOptions="actionDone"
+            android:minLines="5"
+            android:background="@color/offWhite"
+
+            android:layout_width="match_parent"/>
+        <EditText
+            android:id="@+id/price"
+
+            android:layout_height="wrap_content"
+            android:hint="Add price"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+
+            android:inputType="text"
+            android:textCursorDrawable="@drawable/colour_cursor"
+            android:textColor="@color/colorPrimary"
+            android:theme="@style/AppTheme"
+
+            android:layout_width="match_parent"/>
+        <EditText
+            android:id="@+id/dura"
+
+            android:layout_height="wrap_content"
+            android:hint="Add duration"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+
+            android:inputType="text"
+            android:textCursorDrawable="@drawable/colour_cursor"
+            android:textColor="@color/colorPrimary"
+            android:theme="@style/AppTheme"
+
+            android:layout_width="match_parent"/>
+        <EditText
+            android:id="@+id/doc"
+
+            android:layout_height="wrap_content"
+            android:hint="Add relevant physician"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+
+            android:inputType="text"
+            android:textCursorDrawable="@drawable/colour_cursor"
+            android:textColor="@color/colorPrimary"
+            android:theme="@style/AppTheme"
+
+            android:layout_width="match_parent"/>
+        <Button
+            android:id="@+id/enter"
+
+            android:layout_height="wrap_content"
+            android:text="Enter"
+            android:textStyle="bold"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+
+            android:background="#42B15A"
+
+            android:textCursorDrawable="@drawable/colour_cursor"
+            android:textColor="@color/colorPrimary"
+            android:theme="@style/AppTheme"
+
+            android:layout_width="match_parent"/>
+    </LinearLayout>
+</FrameLayout>

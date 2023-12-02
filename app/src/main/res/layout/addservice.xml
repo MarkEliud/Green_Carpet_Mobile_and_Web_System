@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <Button
+            android:id="@+id/select_image_button"
+            android:text="Select Image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+
+        <LinearLayout
+            android:id="@+id/ww"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/select_image_button"
+            android:layout_centerVertical="true"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_marginStart="20dp"
+                android:text="Select Category below "
+                android:textSize="21sp"
+                android:background="@drawable/product_card_view"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/colorPrimary"
+                />
+            <Spinner
+
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+
+                android:textAlignment="center"
+                android:background="@drawable/product_card_view"
+                android:id="@+id/choiceOf"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+
+
+                />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/date_edit_text"
+            android:hint="Enter measurements"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ww"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/description_edit_text"
+            android:hint="Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/date_edit_text"
+            android:layout_marginTop="16dp"/>
+        <EditText
+            android:id="@+id/name_edit_text"
+            android:hint="Enter Price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/description_edit_text"
+            android:layout_marginTop="16dp"/>
+        <Button
+            android:id="@+id/upload_button"
+            android:text="Upload"
+            android:textStyle="bold"
+            android:background="#42B15A"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name_edit_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

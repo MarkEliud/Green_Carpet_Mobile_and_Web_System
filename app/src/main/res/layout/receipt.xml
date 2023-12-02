@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/etiqueta"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/container"
+        android:orientation="vertical"
+        android:background="@drawable/log"
+        android:backgroundTint="#7CDC4C"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="#90ffffff"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical"
+                android:theme="@style/AppTheme.AppBarOverlay">
+
+
+
+                <TextView
+                    android:id="@+id/address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+
+                    android:gravity="start"
+                    android:text="Call Us\n+254 796498184\n+254 770024969"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/cName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+
+                    android:text="Green carpet "
+                    android:textAlignment="center"
+
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Receipt"
+                android:layout_marginRight="5dp"
+                android:textSize="20sp"
+                android:id="@+id/kkk"
+                android:layout_marginTop="5dp"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:background="@color/colorPrimary"
+                android:textAllCaps="true"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/toolbar"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/toolbar"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:focusable="false"
+                android:text="______________________"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/datenow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/toolbar"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:focusable="false"
+                android:text="loading.."
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/date"
+                android:layout_alignBottom="@id/nameq"
+                android:gravity="center"
+                android:text="Received from"
+                android:textColor="#000"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/nameq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/date"
+                android:layout_marginRight="5dp"
+                android:layout_toEndOf="@+id/text1"
+                android:ellipsize="end"
+                android:hint="______________________"
+                android:inputType="text"
+
+                android:maxLines="1"
+                android:paddingLeft="5dp"
+                android:textColor="#000"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/namenow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/date"
+                android:layout_marginLeft="10dp"
+                android:layout_toEndOf="@+id/text1"
+
+                android:gravity="center"
+                android:hint="loading"
+
+
+                android:paddingLeft="5dp"
+                android:textColor="#000"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="The sum of"
+                android:textSize="22sp"
+                android:textColor="#000"
+                android:gravity="center"
+                android:layout_alignBottom="@id/sum"
+                android:id="@+id/text2"
+                android:layout_below="@+id/text1"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/sum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nameq"
+                android:layout_marginRight="5dp"
+                android:layout_toEndOf="@+id/text2"
+                android:ellipsize="end"
+                android:hint=""
+                android:inputType="text"
+                android:maxLines="1"
+                android:paddingLeft="15dp"
+                android:textColor="#000"
+                android:textSize="22sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_below="@+id/text2"
+                android:id="@+id/lin1"
+
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+
+                    android:id="@+id/resr"
+
+                    android:layout_marginTop="10dp"
+
+                    android:textSize="22sp"
+                    android:gravity="center"
+                    android:text="__________"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+
+                    android:id="@+id/rrrom"
+                    android:textSize="22sp"
+                    android:gravity="center"
+                    android:text="_______-"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+
+                    android:id="@+id/rrprice"
+
+                    android:textSize="22sp"
+                    android:gravity="center"
+                    android:text="____"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lin1"
+                android:layout_alignBottom="@id/paymentFor"
+                android:gravity="center"
+                android:text="Status"
+                android:textColor="#000"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/paymentFor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lin1"
+                android:layout_marginEnd="5dp"
+                android:layout_toEndOf="@+id/text3"
+                android:hint="reason"
+                android:paddingStart="50dp"
+
+
+                android:text=""
+                android:textColor="#000"
+                android:textSize="22sp" />
+
+
+            <TextView
+                android:id="@+id/ff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/paymentFor"
+                android:layout_marginRight="5dp"
+                android:ellipsize="end"
+                android:inputType="text"
+                android:maxLines="2"
+                android:visibility="invisible"
+                android:paddingLeft="5dp"
+                android:scrollbars="vertical"
+                android:text="Receipt expires on:"
+                android:textColor="#000"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/datelater"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@+id/ff"
+                android:ellipsize="end"
+
+                android:maxLines="2"
+                android:paddingLeft="5dp"
+
+                android:text="_______"
+                android:textColor="#000"
+                android:textSize="22sp" />
+
+            <ImageView
+                android:id="@+id/rImg"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/ff"
+                android:layout_alignLeft="@id/rSign"
+                android:layout_alignRight="@id/rSign"
+                android:scaleType="fitXY" />
+
+            <Button
+                android:id="@+id/rSign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rImg"
+                android:text="Customer sign"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

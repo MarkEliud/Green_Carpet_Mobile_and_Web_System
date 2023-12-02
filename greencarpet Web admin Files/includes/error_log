@@ -1,0 +1,73 @@
+[21-Jul-2023 03:24:43 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/blupayin/greencarpet/includes/config.php on line 5
+[21-Jul-2023 03:24:44 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/blupayin/greencarpet/includes/config.php on line 5
+[21-Jul-2023 03:24:44 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/blupayin/greencarpet/includes/config.php on line 5
+[21-Jul-2023 03:24:45 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/blupayin/greencarpet/includes/config.php on line 5
+[21-Jul-2023 03:24:45 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/blupayin/greencarpet/includes/config.php on line 5
+[20-Jul-2023 21:54:50 UTC] PHP Warning:  include(includes/config.php): Failed to open stream: No such file or directory in /home/blupayin/greencarpet/includes/footer.php on line 2
+[20-Jul-2023 21:54:50 UTC] PHP Warning:  include(): Failed opening 'includes/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/blupayin/greencarpet/includes/footer.php on line 2
+[20-Jul-2023 21:54:51 UTC] PHP Warning:  Undefined variable $_SESSION in /home/blupayin/greencarpet/includes/sidebar.php on line 15
+[20-Jul-2023 21:54:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/blupayin/greencarpet/includes/sidebar.php on line 15
+[20-Jul-2023 21:54:51 UTC] PHP Warning:  Undefined variable $_SESSION in /home/blupayin/greencarpet/includes/sidebar.php on line 34
+[20-Jul-2023 21:54:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/blupayin/greencarpet/includes/sidebar.php on line 34
+[20-Jul-2023 21:54:51 UTC] PHP Warning:  Undefined variable $_SESSION in /home/blupayin/greencarpet/includes/sidebar.php on line 15
+[20-Jul-2023 21:54:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/blupayin/greencarpet/includes/sidebar.php on line 15
+[20-Jul-2023 21:54:51 UTC] PHP Warning:  Undefined variable $_SESSION in /home/blupayin/greencarpet/includes/sidebar.php on line 34
+[20-Jul-2023 21:54:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/blupayin/greencarpet/includes/sidebar.php on line 34
+[20-Jul-2023 21:54:51 UTC] PHP Warning:  Undefined variable $_SESSION in /home/blupayin/greencarpet/includes/sidebar.php on line 15
+[20-Jul-2023 21:54:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/blupayin/greencarpet/includes/sidebar.php on line 15
+[20-Jul-2023 21:54:51 UTC] PHP Warning:  Undefined variable $_SESSION in /home/blupayin/greencarpet/includes/sidebar.php on line 34
+[20-Jul-2023 21:54:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/blupayin/greencarpet/includes/sidebar.php on line 34
+[20-Jul-2023 21:54:52 UTC] PHP Warning:  Undefined variable $_SESSION in /home/blupayin/greencarpet/includes/sidebar.php on line 15
+[20-Jul-2023 21:54:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/blupayin/greencarpet/includes/sidebar.php on line 15
+[20-Jul-2023 21:54:52 UTC] PHP Warning:  Undefined variable $_SESSION in /home/blupayin/greencarpet/includes/sidebar.php on line 34
+[20-Jul-2023 21:54:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/blupayin/greencarpet/includes/sidebar.php on line 34
+[20-Jul-2023 21:54:52 UTC] PHP Warning:  include(includes/config.php): Failed to open stream: No such file or directory in /home/blupayin/greencarpet/includes/footer.php on line 2
+[20-Jul-2023 21:54:52 UTC] PHP Warning:  include(): Failed opening 'includes/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/blupayin/greencarpet/includes/footer.php on line 2
+[20-Jul-2023 21:54:52 UTC] PHP Warning:  include(includes/config.php): Failed to open stream: No such file or directory in /home/blupayin/greencarpet/includes/footer.php on line 2
+[20-Jul-2023 21:54:52 UTC] PHP Warning:  include(): Failed opening 'includes/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/blupayin/greencarpet/includes/footer.php on line 2
+[21-Jul-2023 03:25:00 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/blupayin/greencarpet/includes/config.php on line 5
+[20-Jul-2023 21:55:04 UTC] PHP Warning:  Undefined variable $_SESSION in /home/blupayin/greencarpet/includes/sidebar.php on line 15
+[20-Jul-2023 21:55:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/blupayin/greencarpet/includes/sidebar.php on line 15
+[20-Jul-2023 21:55:04 UTC] PHP Warning:  Undefined variable $_SESSION in /home/blupayin/greencarpet/includes/sidebar.php on line 34
+[20-Jul-2023 21:55:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/blupayin/greencarpet/includes/sidebar.php on line 34
+[20-Jul-2023 21:55:06 UTC] PHP Warning:  include(includes/config.php): Failed to open stream: No such file or directory in /home/blupayin/greencarpet/includes/footer.php on line 2
+[20-Jul-2023 21:55:06 UTC] PHP Warning:  include(): Failed opening 'includes/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/blupayin/greencarpet/includes/footer.php on line 2
+[20-Jul-2023 21:55:19 UTC] PHP Warning:  include(includes/config.php): Failed to open stream: No such file or directory in /home/blupayin/greencarpet/includes/footer.php on line 2
+[20-Jul-2023 21:55:19 UTC] PHP Warning:  include(): Failed opening 'includes/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/blupayin/greencarpet/includes/footer.php on line 2
+[20-Jul-2023 21:55:20 UTC] PHP Warning:  include(includes/config.php): Failed to open stream: No such file or directory in /home/blupayin/greencarpet/includes/footer.php on line 2
+[20-Jul-2023 21:55:20 UTC] PHP Warning:  include(): Failed opening 'includes/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/blupayin/greencarpet/includes/footer.php on line 2
+[20-Jul-2023 21:55:22 UTC] PHP Warning:  include(includes/config.php): Failed to open stream: No such file or directory in /home/blupayin/greencarpet/includes/footer.php on line 2
+[20-Jul-2023 21:55:22 UTC] PHP Warning:  include(): Failed opening 'includes/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/blupayin/greencarpet/includes/footer.php on line 2
+[20-Jul-2023 21:55:48 UTC] PHP Warning:  Undefined variable $_SESSION in /home/blupayin/greencarpet/includes/sidebar.php on line 15
+[20-Jul-2023 21:55:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/blupayin/greencarpet/includes/sidebar.php on line 15
+[20-Jul-2023 21:55:48 UTC] PHP Warning:  Undefined variable $_SESSION in /home/blupayin/greencarpet/includes/sidebar.php on line 34
+[20-Jul-2023 21:55:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/blupayin/greencarpet/includes/sidebar.php on line 34
+[21-Jul-2023 03:26:43 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/blupayin/greencarpet/includes/config.php on line 5
+[20-Jul-2023 21:57:04 UTC] PHP Warning:  Undefined variable $_SESSION in /home/blupayin/greencarpet/includes/sidebar.php on line 15
+[20-Jul-2023 21:57:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/blupayin/greencarpet/includes/sidebar.php on line 15
+[20-Jul-2023 21:57:04 UTC] PHP Warning:  Undefined variable $_SESSION in /home/blupayin/greencarpet/includes/sidebar.php on line 34
+[20-Jul-2023 21:57:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/blupayin/greencarpet/includes/sidebar.php on line 34
+[20-Jul-2023 21:57:08 UTC] PHP Warning:  Undefined variable $_SESSION in /home/blupayin/greencarpet/includes/sidebar.php on line 15
+[20-Jul-2023 21:57:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/blupayin/greencarpet/includes/sidebar.php on line 15
+[20-Jul-2023 21:57:08 UTC] PHP Warning:  Undefined variable $_SESSION in /home/blupayin/greencarpet/includes/sidebar.php on line 34
+[20-Jul-2023 21:57:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/blupayin/greencarpet/includes/sidebar.php on line 34
+[20-Jul-2023 21:57:10 UTC] PHP Warning:  Undefined variable $_SESSION in /home/blupayin/greencarpet/includes/sidebar.php on line 15
+[20-Jul-2023 21:57:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/blupayin/greencarpet/includes/sidebar.php on line 15
+[20-Jul-2023 21:57:10 UTC] PHP Warning:  Undefined variable $_SESSION in /home/blupayin/greencarpet/includes/sidebar.php on line 34
+[20-Jul-2023 21:57:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/blupayin/greencarpet/includes/sidebar.php on line 34
+[20-Jul-2023 21:58:17 UTC] PHP Warning:  Undefined variable $_SESSION in /home/blupayin/greencarpet/includes/sidebar.php on line 15
+[20-Jul-2023 21:58:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/blupayin/greencarpet/includes/sidebar.php on line 15
+[20-Jul-2023 21:58:17 UTC] PHP Warning:  Undefined variable $_SESSION in /home/blupayin/greencarpet/includes/sidebar.php on line 34
+[20-Jul-2023 21:58:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/blupayin/greencarpet/includes/sidebar.php on line 34
+[20-Jul-2023 21:58:24 UTC] PHP Warning:  Undefined variable $_SESSION in /home/blupayin/greencarpet/includes/sidebar.php on line 15
+[20-Jul-2023 21:58:24 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/blupayin/greencarpet/includes/sidebar.php on line 15
+[20-Jul-2023 21:58:24 UTC] PHP Warning:  Undefined variable $_SESSION in /home/blupayin/greencarpet/includes/sidebar.php on line 34
+[20-Jul-2023 21:58:24 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/blupayin/greencarpet/includes/sidebar.php on line 34
+[20-Jul-2023 21:59:32 UTC] PHP Warning:  Undefined variable $_SESSION in /home/blupayin/greencarpet/includes/sidebar.php on line 15
+[20-Jul-2023 21:59:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/blupayin/greencarpet/includes/sidebar.php on line 15
+[20-Jul-2023 21:59:32 UTC] PHP Warning:  Undefined variable $_SESSION in /home/blupayin/greencarpet/includes/sidebar.php on line 34
+[20-Jul-2023 21:59:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/blupayin/greencarpet/includes/sidebar.php on line 34
+[20-Jul-2023 21:59:38 UTC] PHP Warning:  Undefined variable $_SESSION in /home/blupayin/greencarpet/includes/sidebar.php on line 15
+[20-Jul-2023 21:59:38 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/blupayin/greencarpet/includes/sidebar.php on line 15
+[20-Jul-2023 21:59:38 UTC] PHP Warning:  Undefined variable $_SESSION in /home/blupayin/greencarpet/includes/sidebar.php on line 34
+[20-Jul-2023 21:59:38 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/blupayin/greencarpet/includes/sidebar.php on line 34
